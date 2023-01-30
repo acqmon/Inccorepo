@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* box-shadow: 0 1.188em 1.550em rgb(156, 156, 156); */
+}
+
+.registerusercontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.formuserregister{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(187, 126, 126);
+    overflow: scroll;
+    border: solid 1px;
+    border-color: gold;
+    border-radius: 30px;
+    box-shadow: 0 1.188em 1.550em rgb(156, 156, 156);
+    overflow: scroll;
+    font-size: medium;
+}
+
+.headingregisteruser{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(251, 177, 112);
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.inputdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: beige;
+    text-align: center;
+    font-size: medium;
+}
+
+.btnregisteruser{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    /* background-color: lightskyblue; */
+    background-color: #3898C1;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+

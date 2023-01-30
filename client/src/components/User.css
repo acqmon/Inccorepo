@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* box-shadow: 0 1.188em 1.550em rgb(156, 156, 156); */
+}
+
+.userloginmainpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    overflow: scroll;
+}
+
+.navbaruserloginmainpage{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: maroon;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    color: gold;
+}
+
+.usermaininfo{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid 5px;
+    border-color: burlywood;
+    border-radius: 30px;
+
+}
+
+.usermainheading{
+    color: chocolate;
+    font-size: large;
+    margin-top: 35px;
+}
+
+.userloginmainpage1{
+    width: 90%;
+    height: 600px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px;
+    border-color: gold;
+    border-radius: 10px;
+    box-shadow: 0 1.188em 1.550em rgb(156, 156, 156);
+    overflow: scroll;
+    margin-top: 80px;
+}
+
+.btnusermainpage{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.btnusermainbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

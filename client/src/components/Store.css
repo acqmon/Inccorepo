@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* box-shadow: 0 1.188em 1.550em rgb(156, 156, 156); */
+}
+
+.storemainpage{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navstore{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: maroon;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.storeidinput{
+    width: 150px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: gold;
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    background-color: maroon;
+}
+
+.logoutbtnstore{
+    width: 100px;
+    height: 35px;
+}
+
+.storemainpage1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 80px;
+    overflow: hidden;
+    font-size: large;
+}
+
+.info{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #C14242;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: gold;
+    overflow: scroll;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: burlywood;
+    text-align: center;
+}
+
+.inputinfo{
+    width: 90%;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.storeeventbtn{
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btns{
+    width: 150px;
+    height: 40px;
+    font-size: small;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: rgb(199, 168, 159);
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 10px;
+    font-size: small;
+    overflow: hidden;
+}
+
+.storerechargeallpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.btns1{
+    width: 150px;
+    height: 40px;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    background-color: rgb(199, 168, 159);
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 10px;
+    font-size: small;
+    overflow: hidden;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headingtable{
+    width: 100%;
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    height: 50px;
+    border: solid 1px;
+    border-color: gold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+

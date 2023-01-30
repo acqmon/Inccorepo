@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* box-shadow: 0 1.188em 1.550em rgb(156, 156, 156); */
+}
+
+.promotionorderpage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cart {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btncart{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    font-size: large;
+    color: white;
+}
+
+.cartpage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+}
+
+.mycart {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tablepage {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headinginvoice{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.invoice {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoiceheading {
+    width: 600px;
+    height: fit-content;
+    font-size: 15px;
+}
+
+.p{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.invoicenumber {
+    width: 400px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.totalamount {
+    width: 95%;
+    display: flex;
+    justify-content: right;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.btnprint{
+    float: right;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.printbtn{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.storecashrecieved{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.storecashrecieved1{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: floralwhite;
+}

@@ -1,0 +1,15 @@
+const express = require("express");
+const db = require("../configure/database");
+
+const selectpromotionplan = express.Router();
+
+selectpromotionplan.get("/:id", (req, res) => {
+    const id = req.params.id;
+
+    const getplan = "select * from promotionandsales where id = ?";
+    db.query(getplan, id, (error, result) => {
+        res.send(result);
+    });
+});
+
+module.exports = selectpromotionplan;
