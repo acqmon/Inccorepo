@@ -13,12 +13,12 @@ QR CODE GENARATOR AND QR CODE READER.
 NEW USER CREATION.
 UNIQUE ID GENERATION.
 BUSINESS LOGIC.
-user login system.
-multiple user roles
-dashboard informations
-product list
-taking orders
-genrating bill
+USER LOGIN SYSTEM.
+MULTIPLE USER ROLES.
+DASHBOARD INFORMATIONS.
+PROUDUCT LIST.
+ORDER GENERATION.
+BILLING.
 
 
 agency login: 
